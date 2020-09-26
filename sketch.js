@@ -6,6 +6,7 @@ const Constraint = Matter.Constraint;
 var drop=[];
 var thunder, thunder1,thunder2,thunder3,thunder4;
 var umbrella;
+var engine,world;
 function preload(){
 
  thunder1 = loadImage("images/thunderbolt1.png");
@@ -21,7 +22,7 @@ thunder1=createSprite(100,100,50,50);
 thunder2=createSprite(100,100,50,50);
 thunder3=createSprite(100,100,50,50);
 thunder4=createSprite(100,100,50,50);
-umbrella = new Umbrella(310,200,40,40);
+umbrella = new Umbrella(310,200);
 
   engine = Engine.create();
   world = engine.world;
