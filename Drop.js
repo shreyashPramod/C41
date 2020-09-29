@@ -1,5 +1,5 @@
 class Drop {
-    constructor(x, y,r) {
+    constructor(x,y,r) {
 
         var options ={
             restitution:0.4

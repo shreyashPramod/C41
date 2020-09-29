@@ -1,11 +1,11 @@
 class Umbrella {
    constructor(x,y){
-      var options = { isStatic: true,}
+      var options = { isStatic: true}
       
 this.image = loadImage("images/walking8.png"); 
 this.umbrella = Bodies.circle(x,y,50,options); 
 this.radius = 50;
- World.add(world, this.umbrella)
+ World.add(world,this.umbrella);
  }
 
 display(){ 
